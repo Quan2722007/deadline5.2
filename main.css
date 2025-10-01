@@ -67,7 +67,7 @@ header {
 }
 .wapper__img {
   width: 14vw;
-  background-image: url("assets/company.png");
+  background-image: url("company.png");
   border-radius: 50%;
   background-size: cover;
   height: 150px;
@@ -92,6 +92,7 @@ header {
   margin-left: 1vw;
   margin-bottom: 3vh;
   margin-right: 1vw;
+  box-sizing: border-box;
 }
 .distance {
   margin-left: 1.5vw;
@@ -151,3 +152,4 @@ footer {
   padding-top: 1.5vh;
   color: white;
 }
+
