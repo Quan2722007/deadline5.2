@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+}
+header {
+  height: 12vh;
+}
+.box_1 {
+  display: flex;
+  height: 7vh;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: block;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  height: 30%;
+  font-weight: 900;
+  text-shadow: 5px 5px rgb(237, 198, 205);
+  color: rgb(191, 91, 108);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 5vh;
+  background-color: #ea9696;
+  margin-bottom: 0;
+}
+.boder {
+  border-right: 1px solid blue;
+  padding-right: 10px;
+}
+.container img {
+  height: 3vh;
+}
+.wapper {
+  display: flex;
+  width: 100vw;
+}
+.wapper__1 {
+  width: 16vw;
+}
+.round {
+  display: flex;
+  align-items: center;
+  background-color: #ea9696;
+  border-radius: 15px;
+  height: 4vh;
+  width: 15vw;
+  margin-top: 1vh;
+}
+.wapper__content {
+  color: white;
+  font-size: 20px;
+  margin-left: 1vw;
+}
+.wapper__img {
+  width: 14vw;
+  background-image: url("assets/company.png");
+  border-radius: 50%;
+  background-size: cover;
+  height: 150px;
+  box-shadow: 10px 20px 13px #fbacacd4;
+  margin-top: 2vh;
+}
+.wapper__2 {
+  width: 76vw;
+}
+.change--content {
+  text-decoration: underline;
+  color: red;
+  font-weight: bold;
+}
+.li__content {
+  color: darkgoldenrod;
+  font-weight: 600;
+}
+.box--change {
+  width: 45%;
+  height: 5vh;
+  margin-left: 1vw;
+  margin-bottom: 3vh;
+  margin-right: 1vw;
+}
+.distance {
+  margin-left: 1.5vw;
+}
+button {
+  padding: 10px;
+}
+.title {
+  background-color: #ea9696;
+  letter-spacing: 18px;
+  width: 55%;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  color: maroon;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.wapper__3 {
+  width: 30vw;
+}
+.cuboid {
+  width: 100%;
+  height: 76vh;
+  margin-top: 2vh;
+  background-color: black;
+  padding-bottom: 20px;
+}
+.box__small {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+.cuboid h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.letter {
+  color: white;
+}
+.letter__underline {
+  color: #ea9696;
+}
+footer {
+  display: flex;
+  height: 8vh;
+  background-color: #ea9696;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5vh;
+  color: white;
+}
