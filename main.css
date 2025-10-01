@@ -119,7 +119,7 @@ button {
 }
 .cuboid {
   width: 100%;
-  height: 60vh;
+  height: 65vh;
   margin-top: 2vh;
   background-color: black;
   padding-bottom: 20px;
@@ -152,5 +152,6 @@ footer {
   padding-top: 1.5vh;
   color: white;
 }
+
 
 
